@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Agenda de Contatos</title>
+</head>
+<body class="fundo-abstract" background="./images/fundo_tela_.jpg">
+    <div class="container">
+        <header>
+            <div id="head-photo">
+                <h1>Agenda de Contatos</h1>
+                <hr>
+                <img src="./images/logo_agenda_contatos.jpg" alt="">
+                <hr>
+            </div>
+        </header>
+        <form id="form-agendaContato" action="submit">
+            <input type="text" id="nomeCompleto-contato" required placeholder="Nome Completo ✎" />
+            <input type="email" id="e-mail-contato" required placeholder="E-mail ✉" />
+            <input type="tel" id="telefone-contato" required placeholder="Telefone ☏" />
+            <button type="submit">
+                Adicionar ✙
+            </button>
+            <button type="reset">
+                Limpar
+            </button>
+        </form>
+        <table cellspacing="0" >
+            <thead>
+                <tr>
+                    <th>
+                        NOME COMPLETO
+                    </th>
+                    <th>E-MAIL</th>
+                    <th>TELEFONE</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>---</td>
+                    <td>---</td>
+                    <td>---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+<footer class="fixarRodape">
+    <div class="container">
+        <p>
+            &copy; Desenvolvedor: Guilherme Monteiro - Todos os direitos reservados
+        </p>
+    </div>
+</footer>
+</html>
